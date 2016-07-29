@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen android:layout="@layout/frame" android:layout_width="wrap_content" />
+    <PreferenceCategory android:title="Remove Non-Notifications" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Ongoing Notification"
+        android:key="ongoing_notifications"
+        android:defaultValue="false"
+        app:rebootDevice="true"
+        android:summaryOn="Ongoing Notifications are removeable"
+        android:summaryOff="Ongoing Notifications are permanent" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Ongoing Charging Notification"
+        android:key="charging_notif"
+        android:defaultValue="false"
+        app:rebootDevice="true"
+        android:summaryOn="Notification is shown"
+        android:summaryOff="Notification is disabled" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Ongoing Media Connected Notification"
+        android:key="media_connect_notif"
+        android:defaultValue="false"
+        app:rebootDevice="true"
+        android:summaryOn="Notification is shown"
+        android:summaryOff="Notification is disabled" />
+
+</PreferenceScreen>
