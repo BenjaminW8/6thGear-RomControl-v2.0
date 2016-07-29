@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!--Do not forget to include this in any locale specific folders for translation-->
@@ -9,28 +8,28 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Some changelog thing lkjh l lkjh slkjh lkjh s,mnb lkjhs lkjh poiuy slkjh</item>
-        <item>Another changelog thing ;lkj d;lkj ;lkjs ;lkj ;lkj s;lkj ;lkj s;lkj ;lkj ;lks ;lkj ;lkj</item>
-        <item>Some more changelog things</item>
-        <item>Some even more changelog thing</item>
-        <item>And another changelog thing ;lsj; lkjs ;lkj ; lkj;lsjk ;sklj s;lkj s;lk js;lkj s;lkj</item>
-        <item>How many changelog things</item>
-        <item>What a long changelog!!!</item>
-        <item>Is it twenty already?</item>
-        <item>Are we there yet?</item>
-        <item>Live long and prosper</item>
-        <item>So say we all</item>
-        <item>Patience you must have</item>
-        <item>Great scot!!!</item>
-        <item>No disassemble…</item>
-        <item>Almost there</item>
-        <item>Done with changelog</item>
+        <item>All Custom FirePower Look made by @myellow</item>
+        <item>Re-DID all the mods from the ground UP</item>
+        <item>You can now swipe left to block notifications (CSC Feature)</item>
+        <item>Removed Stock Kernels out of Aroma</item>
+        <item>You can now View Changelog in DualSettings 》About Device 》Changelog</item>
+        <item>Special thanks to @gayos24 who made FirePower Settings V2</item>
+        <item>Immersive Mode Chooser in FirePower Settings</item>
+        <item>FirePower Settings APP New Theme and Icon by @myellow Added</item>
+        <item>Added Adaway,Xposed,Viper,Dolby in Settings Choose in Aroma Stock or Xposed. Viper Settings</item>
+        <item>Updated Aroma Updater-script with Custom Look</item>
+        <item>Added Exyfire Boot Splash choose in Aroma Stock or Exyfire Boot Splash</item>
+        <item>Added ExyFire Boot Animation Choose in Aroma Stock or ExyFire Boot Animation</item>
+        <item>Removed RoundedUI out of Aroma now you got 3 choices RoundedUI+MODS gets the most MODS</item>
+        <item>Added Settings without Xposed Viper or Xposed Viper in Settings as an Option in Aroma</item>
+        <item>Rebased to APFG - JULY Security Patch</item>
+        <item>And Many More Check in Settings>AboutDevice>Changelog For Full Changelog</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">build v1.0 6thgearrom</string>
+    <string name="rom_version_for_changelog">FirePower 5</string>
 
 
 </resources>

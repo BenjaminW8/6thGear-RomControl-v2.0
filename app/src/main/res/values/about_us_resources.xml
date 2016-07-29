@@ -20,69 +20,75 @@
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/paypal</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
-        <item>Facebook</item>
-        <item>Our Site</item>
-        <item>XDA</item>
+        <item>S7 Flat</item>
+        <item>S7 Edge</item>
+        <item>Donation</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com/galaxy-s7/development/rom-bring-fire-t3400294/</item>
+        <item>http://forum.xda-developers.com/s7-edge/development/rom-bring-fire-t3400282/</item>
+        <item>http://paypal.me/BenjaminW8</item>
     </string-array>
 
 
 
     <!--Team info arrays-->
     <array name="about_team_drawables">
-        <item>@drawable/icon_5</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
+        <item>@drawable/ben</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
     </array>
     <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
+        <item>BenjaminW8 - Lead Developer</item>
+        <item>Mrhelloyellow - Designer</item>
+        <item>Gayos24 - ROM CONTROL MANAGEMENT</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com/member.php?u=7443243/</item>
+        <item>http://forum.xda-developers.com/member.php?u=2639714/</item>
+        <item>http://forum.xda-developers.com/member.php?u=7158231</item>
     </string-array>
 
 
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
-        <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
     </array>
     <string-array name="about_credits_names">
-        <item>Star Trek - for being ultimately better than Star Wars</item>
-        <item>Jean-Luc Picard - for making us crave hot earl-grey tea even in the middle of the summer</item>
-        <item>Data - for running on the best rom. Google, we still are waiting for THAT android version</item>
-        <item>Janeway - for being a normal person and drinking black coffee</item>
-        <item>Q - for reminding us that you can live forever and still look great</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
+        <item>Click on the icons for more info about these awesome Devs</item>
+        <item>Tkkg1994 - For Mentoring me and for letting me use his methods for aroma.</item>
+        <item>jesec    - For Creating a Beast of an KERNEL for our device.</item>
+        <item>nick502  - For Letting me use his Dpi Chooser.</item>
+        <item>Gayos24  - For Creating Rom Control for me and explaining how to use it</item>
+        <item>Mryellow - For Doing everything related to design</item>
+        <item>Daxgirl  - For Creating RomControl v2</item>
+        <item>Wuby986  - For Creating RomControl v2</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>notclickable</item>
+        <item>http://forum.xda-developers.com/member.php?u=5899304/</item>
+        <item>http://forum.xda-developers.com/member.php?u=6371894/</item>
+        <item>http://forum.xda-developers.com/member.php?u=3531742/</item>
+        <item>http://forum.xda-developers.com/member.php?u=7158231/</item>
+        <item>http://forum.xda-developers.com/member.php?u=2639714/</item>
+        <item>http://forum.xda-developers.com/member.php?u=4714483/</item>
+        <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
     </string-array>
 </resources>
