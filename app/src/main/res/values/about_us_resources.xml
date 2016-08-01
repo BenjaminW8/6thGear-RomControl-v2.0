@@ -22,6 +22,7 @@
     <array name="about_contact_us_drawables">
         <item>@drawable/xda</item>
         <item>@drawable/xda</item>
+        <item>@drawable/Telegram</item>
         <item>@drawable/paypal</item>
     </array>
 
@@ -29,6 +30,7 @@
     <string-array name="about_contact_us_text">
         <item>S7 Flat</item>
         <item>S7 Edge</item>
+        <item>Telegram</item>
         <item>Donation</item>
     </string-array>
 
@@ -36,6 +38,7 @@
     <string-array name="about_contact_us_links" translatable="false">
         <item>http://forum.xda-developers.com/galaxy-s7/development/rom-bring-fire-t3400294/</item>
         <item>http://forum.xda-developers.com/s7-edge/development/rom-bring-fire-t3400282/</item>
+        <item>https://telegram.me/joinchat/DPRCAj8L0VUx8AECyql8sw</item>
         <item>http://paypal.me/BenjaminW8</item>
     </string-array>
 
@@ -50,12 +53,12 @@
     <string-array name="about_team_names">
         <item>BenjaminW8 - Lead Developer</item>
         <item>Mrhelloyellow - Designer</item>
-        <item>Gayos24 - ROM CONTROL MANAGEMENT</item>
+        <item>YourSKD - Website</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
         <item>http://forum.xda-developers.com/member.php?u=7443243/</item>
         <item>http://forum.xda-developers.com/member.php?u=2639714/</item>
-        <item>http://forum.xda-developers.com/member.php?u=7158231</item>
+        <item>http://forum.xda-developers.com/member.php?u=7542196</item>
     </string-array>
 
 
@@ -70,16 +73,18 @@
         <item>@drawable/xda</item>
         <item>@drawable/xda</item>
         <item>@drawable/xda</item>
+        <item>@drawable/site</item>
     </array>
     <string-array name="about_credits_names">
         <item>Click on the icons for more info about these awesome Devs</item>
         <item>Tkkg1994 - For Mentoring me and for letting me use his methods for aroma.</item>
         <item>jesec    - For Creating a Beast of an KERNEL for our device.</item>
         <item>nick502  - For Letting me use his Dpi Chooser.</item>
-        <item>Gayos24  - For Creating Rom Control for me and explaining how to use it</item>
+        <item>Gayos24  - For Creating Rom Control v2 for me and explaining how to use it</item>
         <item>Mryellow - For Doing everything related to design</item>
         <item>Daxgirl  - For Creating RomControl v2</item>
         <item>Wuby986  - For Creating RomControl v2</item>
+        <item>Exyfire  - Check out the Website</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
         <item>notclickable</item>
@@ -90,5 +95,7 @@
         <item>http://forum.xda-developers.com/member.php?u=2639714/</item>
         <item>http://forum.xda-developers.com/member.php?u=4714483/</item>
         <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
+        <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
+        <item>http://www.exyfire.com/</item>
     </string-array>
 </resources>
