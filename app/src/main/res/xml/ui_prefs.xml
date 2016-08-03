@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceScreen android:layout="@layout/exy_fire_logo" android:layout_width="wrap_content" />
 
-      <PreferenceCategory android:title="StatusBar" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Internet"
-            android:key="tweaks_speed_view"
-            android:summaryOn="Show"
-            android:summaryOff="Hide" />
+   <PreferenceCategory android:title="Internet" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Internet"
+        android:key="tweaks_speed_view"
+        android:summaryOn="Show"
+        android:summaryOff="Hide" />
+    <PreferenceCategory
 
-
+        android:title="Internet Speed Colors" />
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
         android:title="Download speed color"
         android:key="tweaks_speed_color_download"
         android:summary="Choose download speed color"
-        android:defaultValue="\#ffffffff"  />
+        android:defaultValue="\#ffffffff" />
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
         android:title="Upload speed color"
         android:key="tweaks_speed_color_upload"
         android:summary="Choose upload speed color"
-        android:defaultValue="\#ffffffff"  />
+        android:defaultValue="\#ffffffff" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="StatusBar icon colors"
+        android:key="sb_icon_color"
+        android:defaultValue="\#ffffffff" />
 
-    <PreferenceCategory android:title="Statusbar Colors" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="StatusBar icon colors"
-            android:key="sb_icon_color"
-            android:defaultValue="\#ffffffff"  />
-
-
-
+    <PreferenceCategory
+        android:title="Dynamic Gradient" />
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:title="Dynamic StatusBar Color"
         android:key="dynamic_toggle"
@@ -41,102 +39,130 @@
         android:entries="@array/dsb_gradient_filter_entries"
         android:title="@string/dynamic_status_bar_gradient_title"
         android:key="dynamic_status_bar_gradient_state"
-        android:dependency="dynamic_toggle"
         android:summary="@string/dynamic_status_bar_gradient_summary"
+        android:dependency="dynamic_toggle"
         android:defaultValue="2"
         android:entryValues="@array/dsb_gradient_filter_values" />
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
         android:entries="@array/dsb_gradient_filter_entries"
         android:title="@string/dynamic_status_bar_filter_title"
         android:key="dynamic_status_bar_filter_state"
-        android:dependency="dynamic_toggle"
         android:summary="@string/dynamic_status_bar_filter_summary"
-        android:defaultValue="2"
+        android:dependency="dynamic_toggle" android:defaultValue="2"
         android:entryValues="@array/dsb_gradient_filter_values" />
     <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-        android:max="70"
-        android:title="@string/dynamic_status_bar_filter_value"
+        android:max="70" android:title="@string/dynamic_status_bar_filter_value"
         android:key="dynamic_status_bar_filter_value"
         android:dependency="dynamic_toggle"
-        android:defaultValue="10"  />
+        android:defaultValue="10" />
 
-        <PreferenceScreen android:title="Lock Button">
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Right side"
-                android:key="cocoyaya_rightcornerlock"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Left side"
-                android:key="cocoyaya_leftcornerlock"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Center"
-                android:key="cocoyaya_centerlock"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-        </PreferenceScreen>
-        <PreferenceScreen android:title="Home Button">
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Right side"
-                android:key="cocoyaya_rightcornerhome"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Left side"
-                android:key="cocoyaya_leftcornerhome"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Center"
-                android:key="cocoyaya_centerhome"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-        </PreferenceScreen>
-        <PreferenceScreen android:title="Recent Button">
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Right side"
-                android:key="cocoyaya_rightcornertask"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Left side"
-                android:key="cocoyaya_leftcornertask"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:title="Center"
-                android:key="cocoyaya_centertask"
-                android:defaultValue="false"
-                android:summaryOn="On"
-                android:summaryOff="Off" />
-        </PreferenceScreen>
-    <PreferenceCategory/>
+    <PreferenceCategory
+        android:title="Invincible Virtual Buttons" />
+    <PreferenceScreen
+        android:title="Lock Button">
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Right side"
+            android:key="cocoyaya_rightcornerlock"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Left side"
+            android:key="cocoyaya_leftcornerlock"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Center"
+            android:key="cocoyaya_centerlock"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="Home Button">
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Right side"
+            android:key="cocoyaya_rightcornerhome"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Left side"
+            android:key="cocoyaya_leftcornerhome"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Center"
+            android:key="cocoyaya_centerhome"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Recent Button">
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Right side"
+            android:key="cocoyaya_rightcornertask"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Left side"
+            android:key="cocoyaya_leftcornertask"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Center"
+            android:key="cocoyaya_centertask"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="Remove Clock and Date from Lockscreen" />
+	<com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+     android:defaultValue="true"
+        android:key="lock_clock"
+        android:summaryOff="Hide"
+        android:summaryOn="Show"
+        android:title="Clock and date  on lock screen"
+        app:isSilent="false"
+        app:packageNameToKill="com.android.systemui"/>
 
-    <PreferenceCategory android:title="Immersive Mode" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Heads Up Notifications"
+        android:key="heads_up_notifications_enabled"
+        android:defaultValue="true"
+        android:summaryOn="Heads up enabled"
+        android:summaryOff="Heads up disabled"
+        app:isSilent="false"
+        app:packageNameToKill="com.android.systemui"/>
+
+      <PreferenceCategory android:title="Immersive Mode" />
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/immersive_entries"
         android:key="policy_control"
         android:summary="%s"
-        android:entries="@array/immersive_entries"
         android:entryValues="@array/immersive_values" />
 
+    <PreferenceCategory android:title="Signal" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/SignalPositionName"
+        android:title="Signal Position"
+        android:key="left signal"
+        android:defaultValue="0"
+        android:entryValues="@array/SignalPositionValue"
+        app:rebootDevice="true" />
 
-		 <com.wubydax.romcontrol.v2.prefs.MyListPreference
-		 android:entries="@array/SignalPositionName" 
-		 android:title="Signal Position" 
-		 android:key="left signal"
-		 android:defaultValue="0"
-         app:rebootDevice="true"
-		 android:entryValues="@array/SignalPositionValue" />
+    <PreferenceCategory android:title="Quick Launch">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Recent Panel Quick Launch"
+            android:key="recents_quick_launch_toggle"
+            android:defaultValue="false"
+            android:summaryOn="Quick Launch is shown"
+            android:summaryOff="Quick Launch is hidden" />
+    </PreferenceCategory>
 
     <PreferenceCategory android:title="Settings" />
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
@@ -153,12 +179,11 @@
         android:summaryOn="Hidden"
         android:summaryOff="Shown" />
 
-
     <PreferenceCategory android:title="Launcher" />
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
         android:entries="@array/tw_effect_entries"
         android:title="Touchwiz Page Effect"
         android:key="tw_page_effect"
-        android:defaultValue="1" android:entryValues="@array/tw_effect_values" />
-
+        android:defaultValue="1"
+        android:entryValues="@array/tw_effect_values" />
 </PreferenceScreen>

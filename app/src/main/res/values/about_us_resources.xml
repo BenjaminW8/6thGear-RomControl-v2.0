@@ -22,7 +22,7 @@
     <array name="about_contact_us_drawables">
         <item>@drawable/xda</item>
         <item>@drawable/xda</item>
-        <item>@drawable/Telegram</item>
+        <item>@drawable/telegram</item>
         <item>@drawable/paypal</item>
     </array>
 
@@ -47,8 +47,8 @@
     <!--Team info arrays-->
     <array name="about_team_drawables">
         <item>@drawable/ben</item>
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
+        <item>@drawable/yellow</item>
+        <item>@drawable/skd</item>
     </array>
     <string-array name="about_team_names">
         <item>BenjaminW8 - Lead Developer</item>
@@ -58,7 +58,7 @@
     <string-array name="about_team_links" translatable="false">
         <item>http://forum.xda-developers.com/member.php?u=7443243/</item>
         <item>http://forum.xda-developers.com/member.php?u=2639714/</item>
-        <item>http://forum.xda-developers.com/member.php?u=7542196</item>
+        <item>http://forum.xda-developers.com/member.php?u=7542196/</item>
     </string-array>
 
 
@@ -94,7 +94,6 @@
         <item>http://forum.xda-developers.com/member.php?u=7158231/</item>
         <item>http://forum.xda-developers.com/member.php?u=2639714/</item>
         <item>http://forum.xda-developers.com/member.php?u=4714483/</item>
-        <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
         <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
         <item>http://www.exyfire.com/</item>
     </string-array>

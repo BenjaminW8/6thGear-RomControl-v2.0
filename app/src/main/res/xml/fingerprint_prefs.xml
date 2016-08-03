@@ -1,12 +1,14 @@
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceScreen android:layout="@layout/finger" android:layout_width="wrap_content" />
+    <PreferenceCategory
 
-    <PreferenceCategory android:title="Fingerpint">
+        android:title="Fingerpint">
         <com.wubydax.romcontrol.v2.prefs.FilePreference
-            android:key="modcfg_fingerprint_unlock"
-            android:defaultValue="false"
-            android:summaryOn="Allow unlock by fingerprint after reboot"
-            android:summaryOff="Do not allow unlock by fingerprint after reboot" />
+        android:key="modcfg_fingerprint_unlock"
+        android:defaultValue="false"
+        android:summaryOn="Allow unlock by fingerprint after reboot"
+        android:summaryOff="Do not allow unlock by fingerprint after reboot" />
     </PreferenceCategory>
-
 </PreferenceScreen>
