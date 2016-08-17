@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_de40a760fc54fbad5351c0c043e5bb8e8fc9d977\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_69f7fe0911cfa2c63909a890d85f5a82aecfc837\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.0.0_0ef2a22d4abac842b8d55cdbf4fa934b79521aa0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\BenjaminW8\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_d7679d3120d6aad95c47ddab9bf920c487abae05\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c18cad25ad521590bf89ec631bdffcc86ee189c8">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0778f431c646e5c3e95e53a0623b62b827a5c6d5\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.1.1_33ba74b180cb621142f0b078a257c7bedab818b0\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_d2e5da5a5e6762bf5e4eb034d4df654f1531db98\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_b902720bc1f95057ed4bf51db25a543da14514c3\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\libs\RootTools.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5acf020c8db3eb87824b2f47949294732f04b019">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\2\RootTools_b1fa7d31f95defb90e0bbeac17830dbbeca20930\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_8a1b3a0d898d85ff6e8d934dbead6959cb123d8b\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_10523906945c669f4551bbd83dbe449ece3067ce\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_2090daa6912ede72f035708d8047ef3a0927c1e0\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android\FirePower Settings\V2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ad5732b966f7a5d1b9827e98a6451dc6ae12230c">
+        <dex dex="F:\Android\FirePower Settings\V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_04b38d966b40b3dd3d952360a170444956c4ecb8\classes.dex" />
+    </item>
+
+</items>
