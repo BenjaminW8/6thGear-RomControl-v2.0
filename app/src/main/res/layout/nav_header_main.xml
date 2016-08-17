@@ -26,10 +26,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/header"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/protective_gradient_bottom"/>
+
 
     <TextView
         android:layout_width="match_parent"

@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceScreen android:layout="@layout/frame" android:layout_width="wrap_content" />
 
-    <PreferenceCategory android:title="Remove Non-Notifications" />
+    <PreferenceCategory android:title="Framework/Service Mods" />
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:title="Ongoing Notification"
         android:key="ongoing_notifications"
@@ -22,8 +22,28 @@
 
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:title="Ongoing Media Connected Notification"
-        android:key="media_connect_notif" android:defaultValue="false"
+        android:key="media_connect_notif"
+        android:defaultValue="false"
         android:summaryOn="Notification is shown"
         android:summaryOff="Notification is disabled"
         app:rebootDevice="true" />
+
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="USB plug in/out wakeup"
+        android:key="usb_plugged"
+        android:defaultValue="true"
+        android:summaryOn="On"
+        android:summaryOff="Off"
+        app:isSilent="false"
+        app:packageNameToKill="com.android.systemui"/>
+
+    <PreferenceCategory android:title="Recent Panel Mods" />
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Recent Panel Quick Launch"
+            android:key="recents_quick_launch_toggle"
+            android:defaultValue="false"
+            android:summaryOn="Quick Launch is shown"
+            android:summaryOff="Quick Launch is hidden" />
 </PreferenceScreen>

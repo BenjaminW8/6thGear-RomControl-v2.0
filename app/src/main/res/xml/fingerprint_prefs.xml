@@ -2,6 +2,30 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceScreen android:layout="@layout/finger" android:layout_width="wrap_content" />
+
+
+    <PreferenceCategory android:title="Settings" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/dashboard_num_columns_entries"
+        android:title="Numbers of Columns in Settings"
+        android:key="phronesis_no_columns"
+        android:entryValues="@array/dashboard_num_columns_values" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Hide QuickSettings Favorites"
+        android:key="hide_qs_favorites"
+        android:defaultValue="false"
+        android:summaryOn="Hidden"
+        android:summaryOff="Shown" />
+
+    <PreferenceCategory android:title="Launcher" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/tw_effect_entries"
+        android:title="Touchwiz Page Effect"
+        android:key="tw_page_effect"
+        android:defaultValue="1"
+        android:entryValues="@array/tw_effect_values" />
+
     <PreferenceCategory
 
         android:title="Fingerpint">

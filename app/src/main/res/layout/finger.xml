@@ -5,7 +5,7 @@
     android:weightSum="1"
     android:showDividers="none"
     android:baselineAligned="false">
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"  android:src="@drawable/finger"
+    <ImageView android:layout_width="0dp" android:layout_height="190dp"  android:src="@drawable/finger"
         android:layout_gravity="top"
         android:layout_weight="1" />
 </LinearLayout>
