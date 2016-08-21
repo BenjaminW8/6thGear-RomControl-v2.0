@@ -233,6 +233,11 @@
         android:dialogTitle="Set Custom Text"
         app:isSilent="false"
         app:packageNameToKill="com.android.systemui"/>
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Carrier Text"
+        android:key="carrier_color"
+        android:summary="Choose carrier color"
+        app:rebootDevice="true"/>
     <PreferenceCategory
         android:title="Carrier label text preferences">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference

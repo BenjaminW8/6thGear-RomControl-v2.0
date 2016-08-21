@@ -8,28 +8,29 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>All Custom FirePower Look made by @myellow</item>
+        <item>You can now Get an Special made Dark FirePower Theme made by ALexCerv</item>
         <item>Re-DID all the mods from the ground UP</item>
-        <item>You can now swipe left to block notifications (CSC Feature)</item>
-        <item>Removed Stock Kernels out of Aroma</item>
-        <item>You can now View Changelog in DualSettings 》About Device 》Changelog</item>
-        <item>Special thanks to @gayos24 who made FirePower Settings V2</item>
-        <item>Immersive Mode Chooser in FirePower Settings</item>
+        <item>Added multiple Observers accros the System</item>
+        <item>Added a Global Content Resolver accros the SystemUI</item>
+        <item>Removed Blank Space in Always Once pop-up window for opening Apps</item>
+        <item>Fixed Left Signal Position on Statusbar</item>
+        <item>Fixed Set Wallpaper Dailog</item>
         <item>FirePower Settings APP New Theme and Icon by @myellow Added</item>
-        <item>Added Adaway,Xposed,Viper,Dolby in Settings Choose in Aroma Stock or Xposed. Viper Settings</item>
-        <item>Updated Aroma Updater-script with Custom Look</item>
-        <item>Added Exyfire Boot Splash choose in Aroma Stock or Exyfire Boot Splash</item>
-        <item>Added ExyFire Boot Animation Choose in Aroma Stock or ExyFire Boot Animation</item>
-        <item>Removed RoundedUI out of Aroma now you got 3 choices RoundedUI+MODS gets the most MODS</item>
-        <item>Added Settings without Xposed Viper or Xposed Viper in Settings as an Option in Aroma</item>
-        <item>Rebased to APFG - JULY Security Patch</item>
+        <item>Color Main Dailer and choose a Custom Background (thanks to @therassaad)</item>
+        <item>Choose a custom BG for IncallUI Call Screen</item>
+        <item>You can now Adust the TextView of the text in settings for Favorites and the List View</item>
+        <item>You can now Color everything in Notification Drawer</item>
+        <item>Weather on Lockscreen is now a default but you have to activate weather for it</item>
+        <item>You can Now Color The Weather on Lockscreen</item>
+        <item>Rebased to BPH6 - AUGUST Security Patch</item>
+        <item>Made an Switch for OutDoor Mode </item>
         <item>And Many More Check in Settings>AboutDevice>Changelog For Full Changelog</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">FirePower 5</string>
+    <string name="rom_version_for_changelog">FirePower 7</string>
 
 
 </resources>

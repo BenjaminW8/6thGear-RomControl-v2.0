@@ -10,6 +10,36 @@
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"
             android:title="Notifications background color"/>
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:defaultValue="0"
+        android:entries="@array/shape_entries"
+        android:entryValues="@array/shape_values"
+        android:key="notification_background_form"
+        android:title="Notification bg shape"/>
+
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Custom notificationColors"
+        android:key="custom_notification_color"
+        android:defaultValue="#ffffffff"
+        android:summaryOff="Custom colors disabled"
+        android:summaryOn="Custom colors enabled"/>
+
+
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:defaultValue="#ffffffff"
+        android:key="notification_bg_color"
+        android:title="Notification Custom Color"
+        android:dependency="custom_notification_color"/>
+
+
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        android:title="Notification background transparency"
+        android:key="notification_bg_alpha"
+        android:defaultValue="255"
+        app:maxValue="255"/>
+
+
 
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
         android:title="StatusBar icon colors"
@@ -55,18 +85,48 @@
             android:defaultValue="\#ffffffff"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Brightness slider"
-            android:key="slider"
-            android:dependency="main_switch_bg"
-            android:defaultValue="\#ffffffff"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:key="notification_panel_brightness_adjustment"
             android:defaultValue="true"
             android:summaryOn="Brightness Slider Currently Shown"
             android:summaryOff="Brightness Slider Currently Hidden" />
+        android:title="Brightness panel preferences">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Enable custom colors for brightness"
+            android:key="custom_slider_colors"
+            android:summaryOff="Custom color disabled"
+            android:summaryOn="Custom color enabled"
+            android:defaultValue="false"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Thumb (handle) color"
+            android:defaultValue="#1e4e78"
+            android:key="brightness_slider_thumb_color"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness progress bar color"
+            android:defaultValue="#1e4e78"
+            android:key="brightness_slider_foreground_color"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness custom bg color"
+            android:defaultValue="#ffe6eaed"
+            android:key="brightness_bg_color"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness checkbox color"
+            android:key="brightness_checkbox_color"
+            android:defaultValue="#1e4e78"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness icon color"
+            android:key="brightness_icon_color"
+            android:defaultValue="#1e4e78"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness text label color"
+            android:key="brightness_label_color"
+            android:defaultValue="#1e4e78"
+            android:dependency="custom_slider_colors"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Data usage BAR"
             android:key="data_usage"
@@ -81,8 +141,25 @@
             android:defaultValue="\#ffffffff"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="\#ffffffff"
+            android:key="clear_button_color"
+            android:title="Color CLEAR button"/>
     </PreferenceCategory>
-
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Settings Divider Color"
+        android:key="header_divider_color"
+        android:defaultValue="#ffffffff"
+        android:summary="Choose color to apply"
+        app:isSilent="true"
+        app:packageNameToKill="com.android.systemui"/>
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Expand Button Color"
+        android:key="expand_header_icon_color"
+        android:defaultValue="#ffffffff"
+        android:summary="choose color to apply"
+        app:isSilent="true"
+        app:packageNameToKill="com.android.systemui"/>
     <PreferenceScreen
         android:title="Notification panel background">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -152,14 +229,6 @@
         app:isSilent="false"
         app:packageNameToKill="com.android.systemui"/>
 
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-        android:title="Color Clear and Notification Settings"
-        android:key="clear_button_color"
-        android:defaultValue="#13476476"
-        android:summary="Set Color for Clear and notif button in notification"
-        app:isSilent="true"
-        app:packageNameToKill="com.android.systemui"/>
-
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:title="Heads Up Notifications"
         android:key="heads_up_notifications_enabled"
@@ -181,6 +250,23 @@
         android:key="QSPanel_NumberCount"
         android:summary="Number shown on screen"
         android:entryValues="@array/toggle_values" />
+
+
+    <PreferenceCategory
+        android:title="Background Icon Chooser" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/toggle_buttons_background_entries"
+        android:title="Toggle Buttons Background Icons"
+        android:key="toggle_buttons_background"
+        android:summary="%s"
+        android:defaultValue="\#ffffffff"
+        android:entryValues="@array/toggle_buttons_background_values" />
+
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Toggle Button Background Color"
+        android:key="toggle_buttons_background_color"
+        android:summary="Choose the color to toggle style Stock"
+        android:defaultValue="\#ffffffff" />
 
     <PreferenceCategory android:title="Show or Hide Notification Clock" />
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -205,10 +291,85 @@
         android:summaryOff="Hide"
         app:isSilent="false"
         app:packageNameToKill="com.android.systemui"/>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Clock &amp; Date Colors"
+        android:key="link_colors"
+        android:defaultValue="false"
+        android:summaryOff="Hide"
+        android:summaryOn="Show"
+        android:dependency="hide_header_mod_clock"
+        app:isSilent="false"
+        app:packageNameToKill="com.android.systemui"/>
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Mod clock hours color"
+        android:key="header_mod_clock_hours_color"
+        android:dependency="hide_header_mod_clock"
+        android:defaultValue="\#ffffffff"
+        app:isSilent="true"
+        app:packageNameToKill="com.android.systemui"/>
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Mod clock minute color"
+        android:key="header_mod_clock_minutes_color"
+        android:dependency="hide_header_mod_clock"
+        android:defaultValue="\#ffffffff"
+        app:isSilent="true"
+        app:packageNameToKill="com.android.systemui"/>
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Mod clock second color"
+        android:key="header_mod_clock_seconds_color"
+        android:dependency="hide_header_mod_clock"
+        android:defaultValue="\#ffffffff"
+        app:isSilent="true"
+        app:packageNameToKill="com.android.systemui"/>
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Data color"
+        android:key="date_header_color"
+        android:dependency="hide_header_mod_clock"
+        android:defaultValue="\#ffffffff"
+        app:isSilent="true"
+        app:packageNameToKill="com.android.systemui"/>
 
 
 
     <PreferenceCategory android:title="Lockscreen" />
+    <PreferenceScreen android:title="Colorized Weather">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Text-degree Color"
+            android:key="color_temp"
+            android:summary="Choose Color"
+            android:defaultValue="\#ffffffff"  />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Text Color Max Temperature"
+            android:key="color_high_temp"
+            android:summary="Choose Color"
+            android:defaultValue="\#ffffffff" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Text Color Min Temperature"
+            android:key="color_low_temp"
+            android:summary="Choose Color"
+            android:defaultValue="\#ffffffff"  />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Color Text Rise"
+            android:key="color_sunrise"
+            android:summary="Choose Color"
+            android:defaultValue="\#ffffffff"  />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Colorized Text Location"
+            android:key="color_location"
+            android:summary="Choose Color"
+            android:defaultValue="\#ffffffff" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Colorized Text Sunset "
+            android:key="color_sunset"
+            android:summary="Choose Color"
+            android:defaultValue="\#ffffffff" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Colorized Weather Text"
+            android:key="color_text"
+            android:summary="Choose Color"
+            android:defaultValue="\#ffffffff" />
+   </PreferenceScreen>
+
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
         android:entries="@array/lockscreen_notif_entries"
         android:title="Notifications Shown on Lockscreen"
@@ -279,7 +440,6 @@
         android:summaryOff="Hide"
         app:isSilent="true"
         app:packageNameToKill="com.android.systemui"/>
-
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
         android:entries="@array/display_timeout_entries"
         android:title="Lockscreen Display Timeout"
@@ -288,21 +448,7 @@
         android:entryValues="@array/display_timeout_values"
         app:packageNameToKill="com.android.systemui"/>
 
-    <PreferenceCategory
-        android:title="Background Icon Chooser" />
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        android:entries="@array/toggle_buttons_background_entries"
-        android:title="Toggle Buttons Background Icons"
-        android:key="toggle_buttons_background"
-        android:summary="%s"
-        android:defaultValue="\#ffffffff"
-        android:entryValues="@array/toggle_buttons_background_values" />
 
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-        android:title="Toggle Button Background Color"
-        android:key="toggle_buttons_background_color"
-        android:summary="Choose the color to toggle style Stock"
-        android:defaultValue="\#ffffffff" />
 
     <PreferenceCategory
         android:title="Data Usage" />

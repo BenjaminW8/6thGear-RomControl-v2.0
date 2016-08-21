@@ -28,6 +28,12 @@
         android:summaryOff="Notification is disabled"
         app:rebootDevice="true" />
 
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:defaultValue="\#ff7792a9"
+        android:key="notif_icon_color"
+        android:title="Notification icons BG"
+        app:isSilent="true"
+        app:packageNameToKill="com.android.systemui"/>
 
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:title="USB plug in/out wakeup"
