@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
 
     <!--Do not forget to include this in any locale specific folders for translation-->
 
@@ -22,7 +24,7 @@
         <item>You can now Color everything in Notification Drawer</item>
         <item>Weather on Lockscreen is now a default but you have to activate weather for it</item>
         <item>You can Now Color The Weather on Lockscreen</item>
-        <item>Rebased to BPH6 - AUGUST Security Patch</item>
+        <item>Rebased to APGS - AUGUST Security Patch</item>
         <item>Made an Switch for OutDoor Mode </item>
         <item>And Many More Check in Settings>AboutDevice>Changelog For Full Changelog</item>
     </string-array>

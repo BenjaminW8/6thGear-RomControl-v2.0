@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\framework_prefs.xml",
+        "source": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\src\\main\\res\\xml\\framework_prefs.xml"
+    },
+    {
+        "merged": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\notification_panel_prefs.xml",
+        "source": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\src\\main\\res\\xml\\notification_panel_prefs.xml"
+    },
+    {
+        "merged": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\ui_prefs.xml",
+        "source": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\src\\main\\res\\xml\\ui_prefs.xml"
+    },
+    {
+        "merged": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\settings_prefs.xml",
+        "source": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\src\\main\\res\\xml\\settings_prefs.xml"
+    },
+    {
+        "merged": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\phone_prefs.xml",
+        "source": "F:\\Android\\FirePower Settings\\FirePowerSettingsV2.1\\app\\src\\main\\res\\xml\\phone_prefs.xml"
+    }
+]
